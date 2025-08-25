@@ -1,47 +1,45 @@
-# 📊 Aplicativo Web de Prorrateo - Clockify
+# 📊 Clockify Hours Proration Web App
 
-Este es un aplicativo web desplegado en Azure, diseñado para generar el **prorrateo de horas registradas** por los colaboradores en [Clockify](https://clockify.me/).
+This is a web application deployed on Azure, designed to generate the **proration of hours logged** by team members in [Clockify](https://clockify.me/).
 
-Con una interfaz sencilla, permite al usuario ingresar una **fecha de inicio** y una **fecha de fin**, generando un **reporte automático** que se descarga directamente en el navegador.
+With a simple interface, the user enters a **start date** and an **end date**, and the app generates an **automatic report** that downloads directly in the browser.
 
-> ⚠️ **Nota importante:** El aplicativo solo funciona dentro de la red local de la oficina.
-
----
-
-## 🚀 Cómo usar
-
-1. Conéctate a la red interna de la oficina.
-2. Accede al aplicativo web desde tu navegador.
-3. Ingresa la **fecha de inicio** y **fecha de fin**.
-4. Haz clic en **Generar Reporte**.
-5. El archivo será descargado automáticamente.
+> ⚠️ **Important note:** The app only works within the office’s local network.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🚀 How to Use
+
+1. Connect to the office’s internal network.
+2. Access the web app from your browser.
+3. Enter the **start date** and **end date**.
+4. Click **Generate Report**.
+5. The file will download automatically.
+
+---
+
+## 🛠️ Technologies Used
 
 - 🌐 Azure Web App
 - 🧠 Backend: Flask
 - 🎨 Frontend: HTML/CSS/JS
-- 🔄 Integración con Clockify API 
+- 🔄 Integration with the Clockify API
 
 ---
 
-## 🧭 Accesibilidad y restricciones
+## 🧭 Accessibility & Restrictions
 
-- ✅ Disponible **únicamente** desde la red interna de la oficina.
-- ❌ No accesible desde internet o redes externas.
-
----
-
-## 🔄 CI/CD Integrado
-
-Este proyecto cuenta con un flujo de **Integración Continua (CI)** y **Despliegue Continuo (CD)** utilizando **GitHub Actions**. Cada cambio en la rama `main` activa automáticamente el proceso de:
-
-1. Validación y pruebas del código fuente.
-2. Construcción del paquete/webapp.
-3. Despliegue automático al entorno productivo en **Azure Web App**.
-
-> ✅ Esto garantiza que el aplicativo esté siempre actualizado con la última versión funcional.
+- ✅ Available **only** from the office’s internal network.
+- ❌ Not accessible from the internet or external networks.
 
 ---
+
+## 🔄 Integrated CI/CD
+
+This project includes a **Continuous Integration (CI)** and **Continuous Deployment (CD)** pipeline using **GitHub Actions**. Every change to the `main` branch automatically triggers:
+
+1. Source code validation and tests.
+2. Build of the package/web app.
+3. Automatic deployment to the production environment on **Azure Web App**.
+
+> ✅ This ensures the application is always up to date with the latest working version.
